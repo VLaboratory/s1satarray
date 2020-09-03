@@ -19,8 +19,8 @@ echo "measurement content after computation"
 ls -l
 echo "measurement/test/ content after computation"
 ls -l test/
-cp test/output.png ../../preview.png
+cp test/output.png ../../../preview.png
 
 echo "data/ content after output copy"
-ls -l ../../
+ls -l ../../../
 echo "End" $(date)
