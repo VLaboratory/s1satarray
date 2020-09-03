@@ -4,7 +4,7 @@ ls -l
 echo "Sat Prod Array content"
 ls -l data/satproduct/
 
-cd data/satproduct/$(ls data/satproduct/ | head -n 2)
+cd data/satproduct/$(ls data/satproduct/ | tail -n 1)
 mv ../../../s1.sh measurement
 cd measurement
 echo "measurement content"
